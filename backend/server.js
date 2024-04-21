@@ -18,7 +18,7 @@ app.use('/api/v1', userrouter);
 
 
 async function main() {
-  await mongoose.connect('mongodb://127.0.0.1:27017/shopping');
+  await mongoose.connect('mongodb+srv://vicky:test123@cluster0.epdrsry.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
   console.log("mongodb connects");
 }
 
