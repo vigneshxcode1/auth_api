@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 import UserModel from "../model/Usermodel.js";
 import crypto from 'crypto'
 let cookiesexpiretime=7
